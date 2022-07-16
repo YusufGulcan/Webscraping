@@ -168,11 +168,7 @@ def Trendyoldata(pagenum):  # You can specify the number of pages that you want 
                           }
 
         df = pd.DataFrame(specifications)
-        df.to_csv(
-            'Trendyol_detailed1.csv')  # I have written the dataframe into a csv file to be processed using the Jupyter Notebook.
-
-
-
+        df.to_csv('Trendyol_detailed333.csv')  # I have written the dataframe into a csv file to be processed using the Jupyter Notebook.
 
     except ValueError as e:
         print(e)
